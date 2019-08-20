@@ -1,0 +1,43 @@
+{
+  "name": "server-api-2.0",
+  "version": "1.0.0",
+  "description": "Server Optimizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -w",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [
+    "Server",
+    "API",
+    "2.0"
+  ],
+  "author": "Mario Tavarez",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "compress": "^0.99.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^4.5.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.3.0",
+    "pg-promise": "^8.7.3",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.0",
+    "@types/helmet": "0.0.43",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/morgan": "^1.7.35",
+    "@types/nodemailer": "^6.2.1",
+    "@types/socket.io": "^2.1.2",
+    "nodemon": "^1.19.1"
+  }
+}
